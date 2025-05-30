@@ -18,16 +18,16 @@ let startTime = Date.now();
 let gameOver = false;
 
 const spaceshipImage = new Image();
-spaceshipImage.src = 'assets/spaceship.png'; // Ensure you have the spaceship image in the correct folder
+spaceshipImage.src = 'spaceship.png'; // Ensure you have the spaceship image in the correct folder
 
 // Sound effects
-const shootSound = new Audio('assets/shoot.mp3');
+const shootSound = new Audio('shoot.mp3');
 
 // Enemy image
 const enemyWidth = 40;
 const enemyHeight = 40;
 const enemyImage = new Image();
-enemyImage.src = 'assets/enemy.png'; // Ensure you have the enemy image in the correct folder
+enemyImage.src = 'enemy.png'; // Ensure you have the enemy image in the correct folder
 
 // Keyboard input
 let leftPressed = false;
