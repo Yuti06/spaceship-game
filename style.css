@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 1px solid white;
+    background-color: black;
+    
+    display: block;
+    margin: auto;
+    
+
+
+}
